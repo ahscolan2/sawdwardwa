@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotdog Heaven - The Ultimate Guide to Hotdogs</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Hotdog Heaven</h1>
+    <h2>The Ultimate Guide to Hotdogs</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="games.html">Games</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Welcome to Hotdog Heaven!</h1>
+    <p>Hotdogs are an American icon, and we're here to help you learn all about them. From their rich history, to delicious recipes, and fun games, there's something for everyone on our website.</p>
+    <p>Check out some of our most popular sections below:</p>
+
+    <ul>
+      <li><a href="history.html">The History of Hotdogs</a></li>
+      <li><a href="recipes.html">Tasty Hotdog Recipes</a></li>
+      <li><a href="games.html">Hotdog-themed Games</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>Copyright Hotdog Heaven 2022</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: #F5F5F5;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header h2 {
+  font-size: 1.5em;
+}
+
+nav {
+  background-color: #333;
+  color: #F5F5F5;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+var gamesSection = document.getElementById("games");
+
+var hotdogMatchingGame = {
+  name: "Hotdog Matching",
+  description: "Match
